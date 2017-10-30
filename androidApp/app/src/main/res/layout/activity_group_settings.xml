@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context=".GroupSettingsActivity">
+
+    <include
+        android:id="@+id/group_settings_toolbar"
+        layout="@layout/toolbar_layout"></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ECEFF1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout style="@style/settings_container">
+
+                <EditText
+                    android:id="@+id/group_name_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Group Name" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/settings_container">
+
+                <ListView
+                    android:id="@+id/editgroup_existing_members_listview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <mehdi.sakout.fancybuttons.FancyButton
+                    style="@style/fancy_button"
+                    android:id="@+id/groupsettings_addmembers_button"
+                    fancy:fb_text="Add Members" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="* For international numbers, put + in the front" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/settings_container">
+                <LinearLayout
+                    android:id="@+id/groupsettings_add_members_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/settings_container">
+                <mehdi.sakout.fancybuttons.FancyButton
+                    style="@style/fancy_button"
+                    android:id="@+id/editgroup_leave_button"
+                    fancy:fb_text="Leave Group" />
+                <mehdi.sakout.fancybuttons.FancyButton
+                    style="@style/fancy_button"
+                    android:id="@+id/editgroup_submit_button"
+                    fancy:fb_text="Done" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
