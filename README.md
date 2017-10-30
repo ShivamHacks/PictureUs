@@ -4,9 +4,9 @@
 [Jump to Server](server) <br/>
 [Jump to App](androidApp/app/src/main/java/com/example/shivamagrawal/photoshareapp)
 
-Note: the current repository was created recently. The original repositories where I kept my code and logged my changes are at the following links:
-[Server] https://github.com/ShivamHacks/PhotoShareServer
-[App] https://github.com/ShivamHacks/PhotoShareApp
+Note: the current repository was created recently. The original repositories where I kept my code and logged my changes are at the following links: <br/>
+[Server](https://github.com/ShivamHacks/PhotoShareServer) <br/>
+[App](https://github.com/ShivamHacks/PhotoShareApp)
 
 The traditional method to share photos is to capture them on different phones, then take the time to upload the photos to some central repository, like iCloud, Google Photos, or Dropbox, and then sharing the photos with others. Or, you post it on social media, but the photo is then available to everyone in your network.
 
