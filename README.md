@@ -14,6 +14,7 @@ PictureUs solves this problem by creating a virtual camera for every group you h
 
 Planned Future Features:
 * Face recognition to identify who is in pictures and use this information to notify users when a photo of them has been shared.
+* Upload photos when on Wifi rather than in the moment, to prevent excessive cellular data usage.
 * Video sharing
 * Filters
 
